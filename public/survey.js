@@ -6,7 +6,7 @@ var questions = [
     'How much do you like thunderstorms?',
     'How much do you like the snow?',
     'How much do you like meeting new people?',
-    'how much do you like to sleep?',
+    'how much do you like to cuddle?',
     'How much do you like to swim?',
     'How much do you like to sleep in?'
 ]
