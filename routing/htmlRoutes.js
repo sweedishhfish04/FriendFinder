@@ -12,7 +12,7 @@ function register(app) {
     app.get('*', function (req, res) {
         res.send(path.join(__basedir + '/public/home.html'))
     });
-}
+};
 
 module.exports = {
     register
