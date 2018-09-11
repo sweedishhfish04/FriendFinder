@@ -9,6 +9,9 @@ function register(app) {
     app.get('/style.css', function (req, res) {
         res.sendFile(path.join(__basedir + '/public/style.css'))
     })
+    app.get('*', function (req, res) {
+        res.send(path.join(__basedir + '/public/home.html'))
+    });
 }
 
 module.exports = {
