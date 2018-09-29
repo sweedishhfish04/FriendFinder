@@ -1,22 +1,41 @@
     body {
         background-color: silver;
+        text-align: center;
     }
+
     div {
         background-color: silver;
         color: blue;
         margin: 20px;
     }
+
     h1 {
         color: maroon;
         margin: 20px;
     }
+
     h3 {
         color: blue;
     }
+
     #home {
         color: green;
         font-size: 32px;
     }
+
     button {
         margin-left: 50px;
     }
+
+    #intro {
+        display: inline-block;
+        text-align: center;
+        color: black;
+        background-color: white;
+        width: 60%;
+    }
+
+    p {
+        margin: 20px;
+    }
+    
